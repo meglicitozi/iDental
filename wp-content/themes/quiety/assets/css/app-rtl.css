@@ -1,0 +1,354 @@
+@charset "UTF-8";
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Header */
+.site-header:not(.mobile-header) .nav-right {
+  margin-left: 0;
+  margin-right: 40px;
+}
+.site-header:not(.mobile-header) .site-main-menu > li {
+  margin-left: 40px;
+}
+.site-header:not(.mobile-header) .site-main-menu > li:not(:last-child) {
+  margin-right: 0;
+}
+.site-header:not(.mobile-header) .site-main-menu li.menu-item-has-children:not(.menu_half_width) .sub-menu {
+  left: auto;
+  right: 0;
+}
+.site-header:not(.mobile-header) .site-main-menu li.menu-item-has-children > a:after {
+  right: auto;
+  left: -16px;
+  top: -1px;
+}
+.site-header:not(.mobile-header) .site-main-menu li .sub-menu li {
+  text-align: right;
+}
+
+.site-header:not(.mobile-header) .site-main-menu li .tt-menu-item .menu-content {
+  text-align: right;
+}
+.site-header:not(.mobile-header) .site-main-menu li .tt-menu-item .wrapper .icon-container {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+/* Banner */
+.banner--one .banner__content {
+  text-align: right;
+  padding-right: 0;
+  padding-left: 100px;
+}
+
+.banner--three .banner__content, .banner--four .banner__content {
+  text-align: right;
+}
+
+.play-button {
+  margin-left: 0;
+  margin-right: 15px;
+}
+.play-button i {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.banner__newsletter-form .newsletter-inner input[type=email] {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.banner__feature li:not(:last-child) {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+.banner__feature li i {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.banner--four .btn-outline {
+  margin-right: 15px;
+  margin-left: 0;
+}
+
+/* List */
+.tt-btn .tt-btn-content-wrapper .elementor-align-icon-right,
+.tt-btn .tt-btn-content-wrapper .tt-btn__align-icon-right {
+  order: 1;
+  margin-left: 0;
+  margin-right: 8px;
+}
+
+.tt__list li i {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+ul, ol {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+/* Promo Box */
+.tt-promo__image {
+  right: auto;
+  left: 0;
+}
+
+.tt-promo__content {
+  text-align: right;
+}
+
+/* Process Box */
+.process-box-wrapper .tt-process-box.style-one .icon-container {
+  margin-right: 0;
+  margin-left: 1.5rem;
+}
+.process-box-wrapper .tt-process-box.style-one .box-content {
+  text-align: right;
+}
+.process-box-wrapper .tt-process-box:not(:last-child) .icon-container:before {
+  left: auto;
+  right: 33px;
+}
+
+.process-box-wrapper .row .col-lg-3:not(:nth-child(4)) .tt-process-box.style-three:after {
+  right: auto;
+  left: -55px;
+}
+
+/* Pricing */
+.tt-pricing__header {
+  text-align: right;
+}
+
+.tt-pricing__feature-list li .bullet {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.tt-pricing-list__feature li i {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.tt-pricing-list .tt-pricing-list__price-info {
+  text-align: right;
+}
+
+.pricing-tab-nav {
+  padding-right: 0;
+}
+
+.tt-pricing__action {
+  text-align: right;
+}
+
+/* Faq List */
+.tt-faq-list {
+  text-align: right;
+}
+
+.tt-faq-list i {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* Testimonial Tab */
+#tt-tabs-nav li {
+  text-align: right;
+}
+#tt-tabs-nav li .author-image {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.tt-tabs-contents .tabs-content {
+  text-align: right;
+}
+
+.content-tab-contents {
+  text-align: right;
+}
+
+.read-more-link i {
+  margin-left: 0;
+  margin-right: 10px;
+}
+.read-more-link i:before {
+  content: "";
+}
+
+/* Testimonial */
+.testimonial .testimonial-content-wrapper {
+  text-align: right;
+}
+.testimonial .avatar {
+  margin-right: 0;
+  margin-left: 20px;
+}
+.testimonial p {
+  text-align: right;
+}
+.testimonial .star-rating {
+  text-align: right;
+}
+
+.testi-prev {
+  order: 2;
+}
+
+.testimonial-two {
+  text-align: right;
+}
+
+/* Counddown */
+.tt-countdown.style-two {
+  text-align: right;
+}
+
+/* Job Post */
+.tt-job {
+  text-align: right;
+}
+
+.tt-job__categories {
+  right: auto;
+  left: 30px;
+}
+
+.tt-job__info li i {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.tt-job__info li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.job-info-items li i {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.tt-countdown.style-two {
+  text-align: right;
+}
+
+.read-more-btn i:before {
+  content: "";
+}
+
+@media (min-width: 992px) {
+  .tt-support-wrapper {
+    padding-left: 0;
+    padding-right: 50px;
+  }
+}
+/* Blog Grid */
+.post-grid .blog-content {
+  text-align: right;
+}
+
+.post-meta li i {
+  margin-right: 0;
+  margin-left: 8px;
+}
+.post-meta li:not(:last-child) {
+  margin-right: 0;
+  margin-left: 14px;
+}
+.post-meta li .post-author img {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.blog-footer .tt-btn i {
+  margin-left: 0;
+  margin-right: 7px;
+}
+.blog-footer .tt-btn i:before {
+  content: "";
+}
+
+.post-next i:before {
+  content: "";
+}
+.post-next .post-nav-wrapper {
+  text-align: left;
+}
+
+.post-next .single-post-nav i {
+  margin: 0 10px 0 0;
+}
+
+.post-next .single-post-nav {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.post-previous i {
+  margin-right: 0;
+  margin-left: 15px;
+}
+.post-previous i:before {
+  content: "";
+}
+
+/* Newsletter */
+.newsletter-form input:not([type=checkbox]):not([type=submit]) {
+  margin: 0 0 0 10px;
+}
+
+/* Form */
+.wpcf7-form-control .wpcf7-list-item {
+  text-align: right;
+}
+
+.wpcf7-form-control input[type=checkbox], .wpcf7-form-control input[type=radio] {
+  order: 2;
+}
+
+/* Widget */
+.sidebar .widget-title:after, .sidebar h2:after, .sidebar h3:after, .sidebar h4:after, .sidebar h5:after, .sidebar h6:after {
+  left: auto;
+  right: 0;
+}
+
+blockquote, .wp-block-quote {
+  border-left: 0;
+  border-right: 3px solid #175cff;
+}
+
+.post-single .entry-footer .share-title, .tag-title {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.social-share-link li:not(:last-child) {
+  margin-right: 0;
+  margin-left: 7px;
+}
+
+.wp-block-latest-posts__featured-image.alignleft {
+  float: right;
+  margin-right: 0;
+  margin-left: 1em;
+}
+
+/* Footer */
+.widget-newsletter .newsletter-submit {
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.widget {
+  text-align: right;
+}
+/*# sourceMappingURL=app-rtl.css.map */
